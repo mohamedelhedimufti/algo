@@ -1,0 +1,18 @@
+var
+i:integer;
+j:integer;
+j=0;
+str_1:string[str_1_length];
+for(i=0;i<str_1_length;i++)
+{
+    if(str_1[i] ==="")
+    j++;
+}
+return(j);
+
+
+
+
+
+
+

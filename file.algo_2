@@ -1,0 +1,14 @@
+var
+tab_1:array of integer;
+tab_2:array of integer;
+sum:integer;
+sum = 0;
+i,j,n,m:integer;
+for(i=0;i<n,i++)
+{
+    for(j=0;j<m;j++)
+    {
+        sum=sum+tab_1[i]+tab_2[j];
+    }
+}
+return(sum);
